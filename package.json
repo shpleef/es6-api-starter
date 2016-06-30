@@ -34,9 +34,9 @@
     "babel-preset-stage-2": "^6.11.0"
   },
   "bugs": {
-    "url": "https://github.com/developit/express-es6-rest-api/issues"
+    "url": "https://github.com/shpleef/es6-api-starter/issues"
   },
-  "homepage": "https://github.com/developit/express-es6-rest-api#readme",
+  "homepage": "https://github.com/shpleef/es6-api-starter#readme",
   "keywords": [
     "api"
   ]
