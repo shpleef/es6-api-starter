@@ -1,7 +1,7 @@
 Express & ES6 REST API Boilerplate
 ==================================
 
-[![bitHound Score](https://www.bithound.io/github/developit/express-es6-rest-api/badges/score.svg)](https://www.bithound.io/github/developit/express-es6-rest-api)
+[![bitHound Score](https://www.bithound.io/github/developit/express-es6-rest-api/badges/score.svg)](https://github.com/shpleef/es6-api-starter)
 
 This is a straightforward boilerplate for building REST APIs with ES6 and Express.
 
@@ -9,7 +9,7 @@ This is a straightforward boilerplate for building REST APIs with ES6 and Expres
 - REST resources as middleware via [resource-router-middleware](https://github.com/developit/resource-router-middleware)
 - CORS support via [cors](https://github.com/troygoode/node-cors)
 - Body Parsing via [body-parser](https://github.com/expressjs/body-parser)
-
+- User login/logout/forgot password/new password
 > Tip: If you are using [Mongoose](https://github.com/Automattic/mongoose), you can automatically expose your Models as REST resources using [restful-mongoose](https://git.io/restful-mongoose).
 
 Getting Started
@@ -17,7 +17,7 @@ Getting Started
 
 ```sh
 # clone it
-git clone git@github.com:developit/express-es6-rest-api.git
+git clone git@github.com:shpleef/es6-api-starter.git
 cd express-es6-rest-api
 
 # Make it your own
