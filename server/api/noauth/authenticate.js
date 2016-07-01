@@ -8,7 +8,7 @@ export default resource({
   /** POST / - Create a new entity */
   create({ body }, res) { // 
     User.findOne({
-      name: body.user.email
+      email: body.user.email
     }, (err, user) => {
       if (err) throw err
 
