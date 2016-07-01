@@ -1,42 +1,46 @@
 {
-  "name": "backed",
-  "version": "0.0.1",
-  "description": "Starter project for an ES6 RESTful Express API",
-  "main": "index.js",
-  "scripts": {
-    "start": "babel-node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start-dev": "PORT=3001 nodemon index.js --exec babel-node --presets es2015,stage-2"
-  },
-  "repository": {
-    "type": "git"
-  },
-  "author": "shpleef",
-  "license": "MIT",
-  "dependencies": {
-    "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.13.3",
-    "compression": "^1.5.2",
-    "cors": "^2.7.1",
-    "express": "^4.13.3",
-    "jsonwebtoken": "^7.0.1",
-    "mongoose": "^4.5.2",
-    "morgan": "^1.7.0",
-    "nodemailer": "^0.7.1",
-    "resource-router-middleware": "^0.5.1",
-    "validator": "^5.4.0"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.9.0",
-    "babel-core": "^6.9.0",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-stage-2": "^6.11.0"
-  },
-  "bugs": {
-    "url": "https://github.com/shpleef/es6-api-starter/issues"
-  },
-  "homepage": "https://github.com/shpleef/es6-api-starter#readme",
-  "keywords": [
-    "api"
-  ]
+    "name": "backed",
+    "version": "0.0.1",
+    "description": "Starter project for an ES6 RESTful Express API",
+    "main": "index.js",
+    "scripts": {
+        "start": "babel-node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-dev": "PORT=3001 nodemon index.js --exec babel-node --presets es2015,stage-2"
+    },
+    "repository": {
+        "type": "git"
+    },
+    "author": "shpleef",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt-nodejs": "0.0.3",
+        "body-parser": "^1.13.3",
+        "compression": "^1.5.2",
+        "cors": "^2.7.1",
+        "express": "^4.13.3",
+        "jsonwebtoken": "^7.0.1",
+        "mongoose": "^4.5.2",
+        "morgan": "^1.7.0",
+        "nodemailer": "^0.7.1",
+        "resource-router-middleware": "^0.5.1",
+        "validator": "^5.4.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.9.0",
+        "babel-core": "^6.9.0",
+        "babel-preset-es2015": "^6.9.0",
+        "babel-preset-stage-2": "^6.11.0"
+    },
+    "bugs": {
+        "url": "https://github.com/shpleef/es6-api-starter/issues"
+    },
+    "homepage": "https://github.com/shpleef/es6-api-starter#readme",
+    "keywords": [
+        "api",
+        "jwt",
+        "starter",
+        "es6",
+        "boilerplate"
+    ]
 }
